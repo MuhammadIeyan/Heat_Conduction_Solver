@@ -16,7 +16,7 @@ This repository demonstrates:
 ## ⚙️ Problem Description
 The physical system consists of a plane wall with the following parameters based on the project specifications:
 
-* **Geometry:** Thickness $L = 0.75~m$, Height $H = 1.5~m$, Width $W = 1~m$.
+* **Geometry:** Thickness, Height, & Width: $L = 0.75~m, H = 1.5~m, W = 1~m$.
 * **Material:** Constant thermal conductivity $k = 40~W/m\cdot K$.
 * **Heat Source:** Uniform volumetric heat generation $\dot{g}''' = 5 \times 10^4~W/m^3$.
 
@@ -52,19 +52,3 @@ When plotting the **location** of the maximum temperature versus node count, a "
 
 ![Interpolation Fix](results/max_temp_location.png)
 *(Fig 3: The red dashed line shows the discrete "staircase" error. The solid blue line shows the corrected sub-grid location using quadratic interpolation.)*
-
-## 📂 Repository Structure
-
-```text
-numerical-heat-transfer-1d/
-│
-├── python/
-│   ├── HeatTransfer_Solver.py    # Main Python solver (with Interpolation fix)
-│   └── requirements.txt          # Dependencies (numpy, matplotlib)
-├── matlab/
-│   └── HeatTransfer_Solver.m     # MATLAB implementation
-├── results/                      # Output plots and validation graphs
-│   ├── temp_distribution.png
-│   ├── max_temp_convergence.png
-│   └── max_temp_location.png
-└── README.md                     # Project documentation
