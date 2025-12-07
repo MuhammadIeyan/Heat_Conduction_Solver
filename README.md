@@ -14,15 +14,15 @@ This repository demonstrates:
 4.  **Advanced Post-Processing:** Implementation of quadratic interpolation to resolve sub-grid thermal peaks.
 
 ## ⚙️ Problem Description
-[cite_start]The physical system consists of a plane wall with the following parameters based on the project specifications[cite: 3, 4]:
+The physical system consists of a plane wall with the following parameters based on the project specifications:
 
-* [cite_start]**Geometry:** Thickness $L = 0.75~m$, Height $H = 1.5~m$, Width $W = 1~m$[cite: 3].
-* [cite_start]**Material:** Constant thermal conductivity $k = 40~W/m\cdot K$[cite: 4].
-* [cite_start]**Heat Source:** Uniform volumetric heat generation $\dot{g}''' = 5 \times 10^4~W/m^3$[cite: 4].
+* **Geometry:** Thickness $L = 0.75~m$, Height $H = 1.5~m$, Width $W = 1~m$.
+* **Material:** Constant thermal conductivity $k = 40~W/m\cdot K$.
+* **Heat Source:** Uniform volumetric heat generation $\dot{g}''' = 5 \times 10^4~W/m^3$.
 
 ### Boundary Conditions
-1.  [cite_start]**Left Face ($x=0$):** Convection with $h_f = 200~W/m^2\cdot K$ and fluid temperature $T_{f} = 20^\circ C$[cite: 4].
-2.  [cite_start]**Right Face ($x=L$):** Uniform heat flux input $\dot{q}'' = 100~W/m^2$ (flowing into the wall)[cite: 4].
+1.  **Left Face ($x=0$):** Convection with $h_f = 200~W/m^2\cdot K$ and fluid temperature $T_{f} = 20^\circ C$.
+2.  **Right Face ($x=L$):** Uniform heat flux input $\dot{q}'' = 100~W/m^2$ (flowing into the wall).
 
 ## 🧮 Mathematical Formulation
 The governing differential equation for 1D steady-state conduction is derived from the energy balance:
