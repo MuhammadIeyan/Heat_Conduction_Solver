@@ -16,7 +16,7 @@ This repository demonstrates:
 ## ⚙️ Problem Description
 The physical system consists of a plane wall with the following parameters based on the project specifications:
 
-* **Geometry:** Thickness, Height, & Width: $L = 0.75~m, H = 1.5~m, W = 1~m$.
+* **Geometry:** Thickness, Height, & Width: $L = 0.75 m, H = 1.5 m, W = 1 m$.
 * **Material:** Constant thermal conductivity $k = 40~W/m\cdot K$.
 * **Heat Source:** Uniform volumetric heat generation $\dot{g}''' = 5 \times 10^4~W/m^3$.
 
