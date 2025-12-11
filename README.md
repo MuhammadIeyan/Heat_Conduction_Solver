@@ -50,5 +50,5 @@ When plotting the **location** of the maximum temperature versus node count, a "
 
 **Solution:** I implemented **Quadratic Interpolation**. By fitting a parabola to the peak node and its nearest neighbors, the solver estimates the *true* continuous physical location of the thermal peak.
 
-![Interpolation Fix](results/max_temp_location.png)
+![Interpolation Fix](max_temp_location.png)
 *(Fig 3: The red dashed line shows the discrete "staircase" error. The solid blue line shows the corrected sub-grid location using quadratic interpolation.)*
