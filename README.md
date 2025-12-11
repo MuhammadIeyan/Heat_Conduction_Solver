@@ -43,7 +43,7 @@ The numerical solution (FVM) was tested against the analytical solution derived 
 ### 2. Mesh Independence Study
 The system was solved iteratively for node counts ranging from $N=3$ to $N=101$. The maximum temperature stabilizes rapidly, confirming the consistency of the numerical scheme.
 
-![Convergence Plot](results/max_temp_convergence.png)
+![Convergence Plot](conv_simulation.png)
 
 ### 3. Handling Discretization Artifacts (Grid Locking)
 When plotting the **location** of the maximum temperature versus node count, a "stair-step" artifact was observed. This occurs because standard peak detection (`max()`) is limited to discrete node locations.
