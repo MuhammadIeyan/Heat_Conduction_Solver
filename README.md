@@ -6,6 +6,7 @@
 
 ## 📌 Project Overview
 This project implements a numerical solution for 1D steady-state heat conduction with volumetric heat generation using the **Finite Volume Method (FVM)**. The solver determines the temperature distribution across a plane wall subject to asymmetric boundary conditions: convection on one side and a constant heat flux on the other.
+https://colab.research.google.com/drive/1iaFjC_rSyr0VtP-PlwFLYGQRzFyWjBMj?usp=sharing
 
 This repository demonstrates:
 1.  **Numerical Analysis:** Discretization of differential equations using FVM.
