@@ -37,7 +37,7 @@ The domain is discretized into $N$ control volumes. Applying the conservation of
 The numerical solution (FVM) was tested against the analytical solution derived from integrating the heat equation.
 * **Observation:** At $N=101$, the Maximum Absolute Error is negligible (< 0.1°C).
 
-![Temperature Distribution](results/temp_distribution.png)
+![Temperature Distribution](temp_distribution.png)
 *(Fig 1: Overlay of Analytical solution (red) and Numerical approximation (blue).)*
 
 ### 2. Mesh Independence Study
